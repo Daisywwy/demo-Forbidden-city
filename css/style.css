@@ -1,0 +1,241 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none
+}
+
+ul{
+	list-style: none
+}
+.img{
+    width:100%;
+}
+
+.banner{
+    width:100%;
+    height:auto;
+    border-top: solid;
+    border-top-width: 5px;
+    border-bottom: solid;
+    border-bottom-width: 5px;
+    border-color: #9e2919;
+}
+
+.content{
+	width:1200px;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.header{
+    width:1200px;
+    height:50px;
+    overflow: hidden;
+}
+
+.b{
+    width:1200px;
+    height:50px;
+    overflow: hidden;
+    border-bottom: solid;
+    border-bottom-width: 5px;
+    border-color: #9e2919;
+}
+
+.header ul li{
+    margin-left: 30px;
+    float:right;
+    font-size:large;
+    line-height: 50px;
+    text-align: end;
+    color:#9e2919;
+}
+.header ul li.act{
+    color:grey;
+}
+.add{
+    line-height:30px;
+    color:#333;
+}
+.duct{
+    width:48%;
+    float:left;
+    margin:10px 1%;
+}
+.duct p{
+    margin:20px 0px;
+}
+.duct p span{
+    display: inline-block;
+    border:1px solid #999;
+    width:20px;
+    height:20px;
+    float: left;
+    line-height:20px;
+    text-align:center;
+}
+.duct p input{
+    width:42px;
+    height:22px;
+    float:left;
+    text-align:center;
+    background: #ccc;
+    border-radius:none;
+    outline:none;
+    border:none;
+}
+
+h2{
+    margin:10px 0px;
+    color:#9e2919;
+    text-align: center;
+}
+.text{
+    line-height: 30px;
+    color: #9e2919;
+}
+.list li{
+    width:31%;
+    float:left;
+    text-align: center;
+    color: #9e2919;
+    margin:10px 1%;
+    overflow: hidden;
+}
+.list li span{
+    background:white;
+}
+.checked {
+    color: orange;
+}
+  
+.z li{
+    width:31%;
+    float:left;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px #888;
+    text-align: center;
+    color: #9e2919;
+    margin:10px 1%;
+    overflow: hidden;
+}
+
+.z li span{
+    background:white;
+}
+
+footer{
+    width:1200px;
+    height:50px;
+    overflow: hidden;
+    color:#fff;
+    text-align: center;
+     background:#9e2919;
+     line-height:50px;
+}
+
+.c li{
+    width:18%;
+    float:left;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px #888;
+    text-align: center;
+    margin:10px 1%;
+}
+
+.list  li img:hover{
+    transform: scale(1.2,1.2);
+    transition: all 2s;
+}
+
+.top_header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.top_header_right {
+    width:800px;
+    height:50px;
+    overflow: hidden;
+}
+.top_header_right ul li {
+    display: inline;
+    margin-left: 20px;
+    float:right;
+    font-size:15px;
+    line-height: 50px;
+    text-align: center;
+    color:#a39a95;
+}
+
+.top_header_right_SR {
+    width:300px;
+    height:50px;
+    overflow: hidden;
+}
+.input-group button {
+    background-color: #9e2919;
+    height:34px;
+}
+
+.input-group i {
+    color: white;
+}
+.p li{
+    width:48%;
+    float:left;
+    text-align: center;
+    color: #9e2919;
+    margin:10px 1%;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #888;
+}
+
+.filter{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+.pricef {
+    margin-left: 30px;
+    font-size:15px;
+    text-align: center;
+    color:#9e2919;
+}
+
+.ratingf {
+    margin-left: 30px;
+    font-size:15px;
+    text-align: center;
+    color:#9e2919;
+}
+
+.sort {
+    margin-left: 30px;
+    font-size:15px;
+    text-align: center;
+    color:#9e2919;
+}
+
+.t1 {
+    font-size: large;
+    font-weight: bold;
+}
+
+.t2 {
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+    text-align: Center;
+}
+
+p{
+    color: #9e2919; 
+}
